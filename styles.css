@@ -13,13 +13,10 @@ h1{
 p{
     color: darkcyan;
 }
-/* .parent1{
-   
-} */
+
 .parent2{
     margin-top: 2rem;
     background-color: rgb(41, 42, 56);
-    height: 100vh;
     width: 83%;
     border-radius: 0.8rem;
 
@@ -128,9 +125,7 @@ h2{
     .parent2{
         display: flex;
     }
-    .parent2{
-        height: 48vh;
-    }
+
     .section1{
         width: 50%;
     }
@@ -145,12 +140,6 @@ h2{
     .myparas p{
         font-size: 0.8rem;
     }
-    .parent2{
-        height: 90vh;
-    }
+
 }
-@media screen and (min-width:330px) and (max-width:440px) {
-    .parent2{
-        height: 84vh;
-    }
-}
+
